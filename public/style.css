@@ -1,0 +1,186 @@
+
+
+#video_background {
+ 										position: absolute; bottom: 0px; 
+										right: 0px; 
+										min-width: 100%; 
+										min-height: 100%; 
+										width: auto; 
+										height: auto; 
+										z-index: -1000; 
+										overflow: hidden; 
+}
+
+#video_pattern { 
+								background-image: url(pattern.png); 
+								position: absolute;
+								opacity: 0.8; 
+								left: 0px; 
+								top: 0px; 
+								width: 100%; 
+								z-index: 1; 
+								height: 100%;no repeat
+			
+}
+
+
+
+
+
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*GENERAL*/
+body {
+    font-family: malgun gothic, Serif;
+    font-size: 16px;
+    line-height: 25px;
+    color: #3B3B3B;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 1);
+}
+
+p { margin-bottom: 25px; }
+p.intro { font-size: 14px; }
+
+/* linksi bold */
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+    outline: 0;
+}
+a:hover, a:focus, a:active {
+    color: #5E1F00;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Futura, Serif;
+}
+h1 {
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -0.9px;
+    color: rgb(235, 235, 235);
+    margin-left: -2px;
+}
+h2 {
+    font-size: 22px;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+h3 {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+ul, ol {
+	margin-bottom: 25px;
+	padding: 0 20px;
+	z-index: 2;
+}
+ul { list-style: disc; }
+ol { list-style: decimal; }
+
+
+
+/*STRUCTUR*/
+
+.content-wrap {
+    width: 940px;
+    margin: 0 auto;
+}
+.content-wrap section {
+    position: relative;
+    padding: 125px 0 25px 0;
+
+}
+.content-wrap section section {
+    background: none;
+    margin: 0;
+}
+.content-wrap section .row {
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.content-wrap section .row .col {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 290px;
+}
+.content-wrap section .row .mid  {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+footer {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 125px;
+}
+
+
+/*  Main Section  */
+
+
+section#main {
+    width: 940px;
+    background: none;
+}
+
+
+
+section#main h1 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+
+section#main .intro-box {
+    float:left;
+    width:940px;
+    min-height: 300px;
+		z-index:4;
+	
+}
+
+
+
+
+section#main .row .col h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+
+footer p.footer-text {
+    font-family: "malgun gothic", Serif;
+    font-size: .75em;
+    padding: 0 10px;
+    margin-bottom: 0;
+    clear: both;
+}
+
